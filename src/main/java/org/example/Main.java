@@ -33,12 +33,33 @@ public class Main {
 //        country.updateInfo("Hungary", "Eurasia", "Budapest", Arrays.asList("Buda", "Pest"));
 //        country.ShowInfo();
 
-        Fraction fraction1 = new Fraction(2, 4);
-        Fraction fraction2 = new Fraction(1, 4);
+//        Fraction fraction1 = new Fraction(2, 4);
+//        Fraction fraction2 = new Fraction(1, 4);
+//
+//        fraction1.showFraction();
+//        fraction2.showFraction();
+//
+//        System.out.print(fraction1.showFraction() + " + " + fraction2.showFraction() + " = " + fraction1.add(fraction2).showFraction());
 
-        fraction1.showFraction();
-        fraction2.showFraction();
+//        Book book = new Book();
+//
+//        book.addBook();
+//        book.showBook();
+//
+//        book.updateBook("Жахи", 780);
+//        book.showBook();
+//
+//        book.updateBook("KSD", "Adventure", 800);
+//        book.showBook();
 
-        System.out.print(fraction1.showFraction() + " + " + fraction2.showFraction() + " = " + fraction1.add(fraction2).showFraction());
+        Auto auto = new Auto();
+        auto.addAuto();
+        auto.showAuto();
+
+        auto.updateAuto("Nissan Skyline");
+        auto.showAuto();
+
+        auto.updateAuto("Mitsubishi Outlander", 2009, 3.0);
+        auto.showAuto();
     }
 }
